@@ -1,8 +1,8 @@
 
 .hero{
 display:block;
-padding-top: 110px;
-
+padding-top: 170px;
+min-height:100vh;
 }
 
 .image img{

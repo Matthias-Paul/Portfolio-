@@ -1,5 +1,7 @@
 .about{
     margin-bottom: 40px;
+    margin-top: 0px;
+    min-height:100vh;
 }
 .about h3{
     display: flex;
