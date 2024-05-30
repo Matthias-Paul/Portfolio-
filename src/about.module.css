@@ -1,6 +1,4 @@
 .about{
-    margin-bottom: 40px;
-    margin-top: 0px;
     min-height:100vh;
 }
 .about h3{
@@ -8,7 +6,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    margin-top: 80px;
+   margin-top: -150px;
     font-size: 22px;
 }
 .text{
