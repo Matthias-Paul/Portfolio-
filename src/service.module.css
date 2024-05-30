@@ -1,0 +1,57 @@
+.service{
+display:flex;
+justify-content: center;
+}
+.service h3{
+text-align:center;
+position:absolute;
+font-size: 22px;
+font-weight: bold;
+}
+.render{
+    display:grid;
+    grid-template-columns: 160px 160px;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.each{
+    box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.6);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.each h4{
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.each h5{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: -10px;
+    background: linear-gradient(194deg, blue, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.each p{
+    font-size: 15px;
+    margin-top: -12px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

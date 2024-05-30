@@ -1,0 +1,102 @@
+.contact{
+    margin-left: 10%;
+    margin-top: 90px;
+}
+.head{
+    font-size: 25px;
+    font-weight:bold;
+    background: linear-gradient(4deg, blue, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subHead{
+    font-size: 18px;
+}
+.headParagraph{
+    font-size: 17px;
+    margin-top:-10px;
+    margin-right: 10%;
+}
+
+.icon{
+    width:22px;
+    margin-bottom: 5px;
+}
+.handle{
+   margin-bottom: 5px;
+    margin-top: -30px;
+    margin-left:35px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.message{
+    
+    margin-top:30px;
+    margin-bottom: 70px;
+}
+.label{
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+.input{
+width:75%;
+border:none;
+outline: none;
+padding: 10px;
+border-radius: 3px;
+font-size:15px;
+}
+.text{
+    font-size:15px;
+    width:75%;
+    border:none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    display:block;
+    font-size:15px;
+    }
+    .btn{
+       margin-top: 15px;
+       border: none;
+       padding:8px;
+       font-size: 18px;
+       font-weight: bold;
+       color:white;
+       background-color: blue;
+       cursor: pointer;
+       border-radius:4px;
+       width:90px;
+       text-align: center;
+    }
+    .footer{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer hr{
+        width:100%;
+        margin-bottom:25px;
+    }
+    .footer p{
+        margin-top:-10px;
+    }
+    .push{
+        padding-top:60px;
+        transition:padding-top 0.4s ease;
+        margin-left: 10%;
+        
+    
+    }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,138 @@
+
+.footer{
+display:flex;
+flex-direction: row;
+position:fixed;
+margin:0;
+background-color: lightgray;
+width:100%;
+z-index: 1000;
+
+}
+.nick{
+    display:flex;
+    flex-direction: row;
+    padding: 15px;
+    color:blue;
+    }
+    .p{
+        font-size: 22px;
+        font-weight: 500;
+        color:black;
+        font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    }
+    .a{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .u{
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 3px;
+        color:white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .l{
+        font-size: 25px;
+        font-weight: 600;
+        color:orange;
+        margin-top: 8px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .header{
+        margin-left: 225px;
+        padding: 18px;
+    }
+.menuIcon{
+    width:28px;
+    cursor:pointer;
+}
+.menuIcon:active{
+    opacity:0.7;
+}
+.closeIcon{
+    width:28px;
+    cursor:pointer;
+}
+.closeIcon:active{
+    opacity:0.7;
+}
+.right{
+    margin-left:-280px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.list{
+    padding: 8px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+   color:black;
+
+}
+.list:active{
+color: blue;
+}
+.response{
+    display:none;
+}
+
+
+
+/* -----media query ------------*/
+
+@media (min-width:600px){
+.menuIcon{
+    display:none;
+}
+.response{
+    display:flex;
+    padding-top: 30px;
+}
+.other{
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

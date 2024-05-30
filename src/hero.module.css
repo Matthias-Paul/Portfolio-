@@ -1,0 +1,71 @@
+
+.hero{
+display:block;
+padding-top: 110px;
+
+}
+
+.image img{
+    width:160px;
+    height: 160px;
+    object-fit:fill;
+    border-radius: 50%;
+ 
+}
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin-top: 30px;  
+    text-align: center;
+    padding:15px;
+}
+.name{
+    font-size: 23px;
+    font-weight: bold;
+    background: linear-gradient(194deg, blue, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dev{
+    font-size: 17px;
+    margin-top:-20px;
+}
+.paragraph{
+    font-size: 17px;  
+    padding:15px;
+    margin-top:-1px;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin:0 auto;
+    padding: 10px;
+    border-radius:20px;
+    border:none;
+    font-size: 15px;
+    background: linear-gradient(to right, blue, orange);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

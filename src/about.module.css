@@ -1,0 +1,38 @@
+.about{
+    margin-bottom: 40px;
+}
+.about h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 22px;
+}
+.text{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.text p{
+    margin-top: -8px;
+    line-height: 1.3em;
+}
+.range{
+    margin-left: 10px;
+}
+
+.lan{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+.range hr{
+margin-top: -16px;
+margin-left: 33%;
+height:12px;
+border-radius: 10px;
+border:none;
+background: linear-gradient(194deg, blue, orange);
+
+}
