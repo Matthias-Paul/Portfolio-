@@ -56,7 +56,7 @@ export default function Service() {
             <p>
               Creating user interface (UI) designs and user experience (UX)
               workflows. Implementing design principles to enhance user
-              interacions.
+              interactions.
             </p>
           </div>
         </div>
