@@ -53,6 +53,72 @@ min-height:100vh;
 }
 
 
+/*     ------media query ------*/
+
+@media (min-width:650px){
+.image img{
+    margin-top: -40px;
+    width:200px;
+    height:200px;
+}
+.name{
+    font-size:28px;
+}
+.dev{
+    font-size:21px;
+}
+.paragraph{
+    font-size:21px;
+}
+
+
+}
+
+@media (min-width:1000px){
+    .image img{
+        margin-top: -45px;
+        width:235px;
+        height:235px;
+    }
+    .name{
+        font-size:30px;
+    }
+    .dev{
+        font-size:23px;
+    }
+    .paragraph{
+        font-size:23px;
+    }
+.btn{
+    margin-top: -15px;
+}    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

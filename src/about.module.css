@@ -1,5 +1,6 @@
 .about{
     min-height:100vh;
+    padding:17px;
 }
 .about h3{
     display: flex;
@@ -29,10 +30,59 @@
 }
 .range hr{
 margin-top: -16px;
-margin-left: 33%;
+margin-left: 35%;
 height:12px;
 border-radius: 10px;
 border:none;
 background: linear-gradient(194deg, blue, orange);
 
 }
+ /*  ----- media query ------*/
+ 
+ @media (min-width:600px){
+    .about{
+        padding: 40px;
+     }
+     .about h3{
+        font-size: 30px;
+     }
+     .text{
+        font-size: 20px; 
+     }
+     .range hr{
+        margin-left: 30%;;
+     }
+    
+
+
+ }
+ @media (min-width:1000px){
+    .about{
+        padding: 60px;
+     }
+     .about h3{
+        font-size: 35px;
+     }
+     .text{
+        font-size: 22px; 
+     }
+     .range hr{
+        margin-left: 20%;;
+     }
+    
+
+
+ }
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+

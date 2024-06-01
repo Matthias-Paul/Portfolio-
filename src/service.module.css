@@ -43,8 +43,120 @@ font-weight: bold;
     margin-top: -12px;
     font-weight: 500;
 }
+/* ----- media query ------*/
+
+@media (min-width:600px){
+    .service h3{
+font-size:28px;
+    }
+    .render{
+        display:grid;
+        grid-template-columns: 250px 250px;
+        row-gap: 25px;
+        column-gap: 25px;
+    
+    }
+
+    .each{
+        padding: 12px;
+    }
+    .each h4{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .each h5{
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    .each p{
+        font-size: 17px;
+        margin-top: -15px;
+        
+    }
+
+}
+
+@media (min-width:850px){
+    .service{
+        margin-top:-240px
+        
+    }
+    .service h3{
+font-size:32px;
+
+    }
+    .render{
+        display:grid;
+        grid-template-columns: 250px 250px 250px;
+        row-gap: 22px;
+        column-gap: 22px;
+    
+    }
+
+    .each{
+        padding: 12px;
+    }
+    .each h4{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .each h5{
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    .each p{
+        font-size: 17px;
+        margin-top: -15px;
+        
+    }
 
 
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:1100px){
+    .service{
+        margin-top:-240px
+        
+    }
+    .service h3{
+font-size:36px;
+margin-bottom: 30px;
+
+    }
+    .render{
+        display:grid;
+        grid-template-columns: 300px 300px 300px;
+        row-gap: 22px;
+        column-gap: 22px;
+        margin-top: 140px;
+    }
+
+    .each{
+        padding: 14px;
+    }
+    .each h4{
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    .each h5{
+        font-size: 24px;
+        margin-top: -10px;
+    }
+    .each p{
+        font-size: 19px;
+        margin-top: -15px;
+        
+    }
+
+}
 
 
 

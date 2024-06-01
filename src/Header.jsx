@@ -2,8 +2,7 @@ import { Link } from "react-scroll";
 import styles from "./header.module.css";
 import menu from "./assets/menu.png";
 import close from "./assets/close.png";
-export default function Header({visible, setVisible}) {
-
+export default function Header({ visible, setVisible }) {
   const toggle = () => {
     setVisible(!visible);
   };
@@ -53,25 +52,25 @@ export default function Header({visible, setVisible}) {
           </div>
         </div>
         <div className={styles.response}>
-        <Link to="home" smooth={true} offset={0} duration={500}>
-                  <div className={styles.other}>Home</div>
-                </Link>
+          <Link to="home" smooth={true} offset={0} duration={500}>
+            <div className={styles.other}>Home</div>
+          </Link>
 
-                <Link to="about" smooth={true} offset={-70} duration={500}>
-                  <div className={styles.other}>About me</div>
-                </Link>
+          <Link to="about" smooth={true} offset={-230} duration={500}>
+            <div className={styles.other}>About me</div>
+          </Link>
 
-                <Link to="services" smooth={true} offset={-70} duration={500}>
-                  <div className={styles.other}>Services</div>
-                </Link>
+          <Link to="services" smooth={true} offset={-120} duration={500}>
+            <div className={styles.other}>Services</div>
+          </Link>
 
-                <Link to="portfolio" smooth={true} offset={-70} duration={500}>
-                  <div className={styles.other}>Portfolio</div>
-                </Link>
+          <Link to="portfolio" smooth={true} offset={-120} duration={500}>
+            <div className={styles.other}>Portfolio</div>
+          </Link>
 
-                <Link to="contact" smooth={true} offset={-70} duration={500}>
-                  <div className={styles.other}>Contact</div>
-                </Link>
+          <Link to="contact" smooth={true} offset={-120} duration={500}>
+            <div className={styles.other}>Contact</div>
+          </Link>
         </div>
       </div>
     </>

@@ -39,6 +39,7 @@ export default function Contact({visible}) {
   return (
     <>
       <div id="contact" className={!visible?styles.contact:styles.push}>
+        <div className={styles.info} >
         <h3 className={styles.head}> Let&#39;s talk</h3>
         <h4 className={styles.subHead}> Get In Touch</h4>
         <p className={styles.headParagraph}>
@@ -61,6 +62,7 @@ export default function Contact({visible}) {
           <div className={styles.handle}>Oyo state, Nigeria.</div>
         </span>
 
+        </div>
 
         <div className={styles.message}>
          <form onSubmit={onSubmit}>
@@ -78,13 +80,15 @@ export default function Contact({visible}) {
           </div>
 
 
-  
+     
       </div>
+      
       <div className={styles.footer}>
       <hr/>
        <p> Term of Services  Privacy Policy Connect with me </p>
        <p>@2024 Matthias paul. All right reserved.</p>
        </div>
+       <hr className={styles.extra}/>
     </>
   );
 }
