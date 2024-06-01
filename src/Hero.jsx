@@ -13,7 +13,7 @@ export default function Hero() {
           <span className={styles.name}>I&#39;m Matthias Paul, </span>
           <span className={styles.dev}>frontend developer, based in Nigeria. </span>
           <p className={styles.paragraph}>
-            I&#39;m frontend developer from Oyo state, Nigeria with four years of
+            I&#39;m a frontend developer from Oyo state, Nigeria with four years of
             experience.
           </p>
       
