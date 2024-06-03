@@ -56,7 +56,7 @@ export default function Header({ visible, setVisible }) {
             <div className={styles.other}>Home</div>
           </Link>
 
-          <Link to="about" smooth={true} offset={-230} duration={500}>
+          <Link to="about" smooth={true} offset={-120} duration={500}>
             <div className={styles.other}>About me</div>
           </Link>
 
