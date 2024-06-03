@@ -26,15 +26,15 @@ export default function About() {
 
         <div className={styles.range}>
           <div className={styles.lan}>
-            HTML & CSS <hr style={{ width: "60%" }} />{" "}
+            HTML & CSS <hr style={{ width: "58%" }} />{" "}
+          </div>
+          <div className={styles.lan}>
+            
+            JavaScript <hr style={{ width: "55%" }} />{" "}
           </div>
           <div className={styles.lan}>
             {" "}
-            JavaScript <hr style={{ width: "57%" }} />{" "}
-          </div>
-          <div className={styles.lan}>
-            {" "}
-            React JS <hr style={{ width: "62%" }} />{" "}
+            React JS <hr style={{ width: "60%" }} />{" "}
           </div>
         </div>
       </div>
