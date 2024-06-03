@@ -32,15 +32,15 @@ export default function Header({ visible, setVisible }) {
                   <div className={styles.list}>Home</div>
                 </Link>
 
-                <Link to="about" smooth={true} offset={-400} duration={500}>
+                <Link to="about" smooth={true} offset={-300} duration={500}>
                   <div className={styles.list}>About me</div>
                 </Link>
 
-                <Link to="services" smooth={true} offset={-250} duration={500}>
+                <Link to="services" smooth={true} offset={-300} duration={500}>
                   <div className={styles.list}>Services</div>
                 </Link>
 
-                <Link to="portfolio" smooth={true} offset={-250} duration={500}>
+                <Link to="portfolio" smooth={true} offset={-300} duration={500}>
                   <div className={styles.list}>Portfolio</div>
                 </Link>
 
