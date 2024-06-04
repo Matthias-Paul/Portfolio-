@@ -20,9 +20,9 @@
 }
 
 .image{
-    width:80%;
-    height:80%;
-    margin-top: 30px;
+    width:90%;
+    height:90%;
+    margin-bottom: 30px;
     box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.6);
     border-radius: 15px;
     cursor:pointer;
@@ -38,7 +38,7 @@
  } 
 
  .image{
-    width:80%;
+    
   border-radius: 15px;
 }
 .grid{
@@ -59,7 +59,7 @@
     } 
    
     .image{
-       width:80%;
+       
    }
    .grid{
        display:grid;
@@ -79,7 +79,7 @@
     } 
    
     .image{
-       width:80%;
+       
        border-radius: 28px;
    
    }
