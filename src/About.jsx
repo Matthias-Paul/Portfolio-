@@ -8,8 +8,8 @@ export default function About() {
         <div className={styles.text} >
         <p>
           {" "}
-          I&#39;m a frontend developer with over four years experienced creating
-          dynamic, responsive and user friendly web applications. Specializing
+          I&#39;m a frontend developer with over three years experienced creating
+          responsive and user friendly web applications. Specializing
           in HTML, CSS, JavaScript and React.js.{" "}
         </p>
         <p>
@@ -18,7 +18,7 @@ export default function About() {
           to each project.
         </p>
         <p>
-          I holds a Bachelor&#39;s degree in Computer Science from Ladoke Akintola
+          I&#39;m a third-year Computer Science Student at Ladoke Akintola
           University Of Technology, and i continually updates my skill set
           through online courses.
         </p>
