@@ -55,6 +55,8 @@ font-size:28px;
   .render{
     padding:70px;
     grid-template-columns: 1fr 1fr ;
+    row-gap: 30px;
+    column-gap: 25px;
   }
 
     .each{
@@ -88,9 +90,9 @@ font-size:32px;
     .render{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 22px;
+        row-gap: 35px;
         
-        column-gap: 22px;
+        column-gap: 30px;
     
     }
 
@@ -135,9 +137,9 @@ margin-bottom: 30px;
     .render{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 22px;
+        row-gap: 30px;
         padding:70px;
-        column-gap: 22px;
+        column-gap: 30px;
         margin-top: 140px;
     }
 

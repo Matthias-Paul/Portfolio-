@@ -1,7 +1,9 @@
 
 .hero{
-display:block;
-padding-top: 170px;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
 min-height:100vh;
 }
 
@@ -57,7 +59,7 @@ min-height:100vh;
 
 @media (min-width:650px){
 .image img{
-    margin-top: -40px;
+ 
     width:200px;
     height:200px;
 }
@@ -76,7 +78,7 @@ min-height:100vh;
 
 @media (min-width:1000px){
     .image img{
-        margin-top: -45px;
+     
         width:235px;
         height:235px;
     }

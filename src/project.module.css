@@ -43,6 +43,7 @@
 }
 .grid{
     display:grid;
+    padding: 40px;
     grid-template-columns: 1fr 1fr;
     column-gap: 25px;
     margin-top: 90px;
@@ -58,18 +59,20 @@
        font-size: 30px;
     } 
    
-    .image{
-       
-   }
+   
    .grid{
        display:grid;
        grid-template-columns: 1fr 1fr 1fr;
-       padding:20px;
-       row-gap: 25px;
-       column-gap: 25px;
+       padding:50px;
+       row-gap: 30px;
+       column-gap: 30px;
        margin-top: 90px;
    
    } 
+   .image{
+    width:100%;
+    height:100%;
+   }
    
    
    }
@@ -80,15 +83,15 @@
    
     .image{
        
-       border-radius: 28px;
+       border-radius: 22px;
    
    }
    .grid{
        display:grid;
        grid-template-columns: 1fr 1fr 1fr;
-       row-gap: 28px;
-       padding:25px;
-       column-gap: 28px;
+     
+       padding:80px;
+     
        margin-top: 90px;
    
    } 
