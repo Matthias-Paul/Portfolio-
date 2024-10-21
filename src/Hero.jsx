@@ -16,9 +16,9 @@ export default function Hero() {
             I&#39;m a frontend developer from Oyo state, Nigeria with over three years of
             experience.
           </p>
-      
+          <button className={styles.btn}>Connect with me</button>
         </div>
-        <button className={styles.btn}>Connect with me</button>
+      
       </div>
   
     </>

@@ -2,7 +2,7 @@ import styles from "./project.module.css"
 import cal from "./assets/cal.jpg"
 import todo from "./assets/todos.jpg"
 import food from "./assets/food.jpg"
-import color from "./assets/color.jpg"
+import velot from "./assets/velot2.jpg"
 import job from "./assets/job.jpg"
 import sch from "./assets/school.jpg"
 export default function Project() {
@@ -21,8 +21,8 @@ export default function Project() {
  const schs = ()=>{
     window.location.href = "https://uni-web-pearl.vercel.app/"
  }
- const colors = ()=>{
-    window.location.href = "https://matthias-paul.github.io/random-color-/"
+ const velots = ()=>{
+    window.location.href = "https://velot.vercel.app/"
  }
 
 
@@ -34,9 +34,10 @@ export default function Project() {
       <img className={styles.image} onClick={calculator} src={cal} />
       <img className={styles.image} onClick={todos} src={todo} />
       <img className={styles.image} onClick={foods} src={food} />
+      <img className={styles.image} onClick={velots} src={velot} />
       <img className={styles.image} onClick={jobs} src={job} />
       <img className={styles.image} onClick={schs} src={sch} />
-      <img className={styles.image} onClick={colors} src={color} />
+   
 
 
 

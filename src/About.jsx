@@ -18,7 +18,7 @@ export default function About() {
           to each project.
         </p>
         <p>
-          I&#39;m a third-year Computer Science Student at Ladoke Akintola
+          I&#39;m a fourth-year Computer Science Student at Ladoke Akintola
           University Of Technology, and i continually updates my skill set
           through online courses.
         </p>

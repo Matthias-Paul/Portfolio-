@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   position: fixed;
   background-color: lightgray;
   width: 100%;
@@ -227,4 +228,10 @@
   .other {
     padding: 8px;
   }
+}
+
+@media (min-width: 1300px) {
+.footer{
+  justify-content:center;
+}
 }
