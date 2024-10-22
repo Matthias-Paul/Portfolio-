@@ -6,12 +6,14 @@
   background-color: lightgray;
   width: 100%;
   z-index: 1000;
+
 }
 .nick {
   display: flex;
   flex-direction: row;
   padding: 15px;
   color: blue;
+  
 }
 .p {
   font-size: 22px;
@@ -54,6 +56,7 @@
 .closeIcon {
   width: 28px;
   cursor: pointer;
+  margin-bottom:7px;
   
 }
 .closeIcon:active {
@@ -72,6 +75,8 @@
   font-weight: bold;
   cursor: pointer;
   color: black;
+  width:25%;
+  margin:auto;
 }
 .list:active {
   color: blue;
@@ -82,7 +87,7 @@
 
 /* -----media query ------------*/
 
-@media (min-width: 540px) {
+@media (min-width: 700px) {
   .menuIcon {
     display: none;
   }
@@ -101,9 +106,7 @@
     border-width: solid 1px;
     border-style: solid;
   }
-  .nick {
-    margin-top: 7px;
-  }
+
 
   .other {
     margin-left: 9px;
@@ -123,50 +126,11 @@
   }
 }
 
-@media (min-width: 600px) {
-  .response {
-    margin-top: 15px;
-    margin-left: -165px;
-    padding: 7px;
-    margin-bottom: 10px;
-  }
 
-  .other {
-    font-size: 17px;
-    border-radius: 10px;
-  }
-}
-
-@media (min-width: 700px) {
-  .response {
-    margin-top: 21px;
-    margin-right: 5px;
-    margin-left: -150px;
-    padding: 7px;
-    margin-bottom: 25px;
-  }
-
-  .p {
-    font-size: 35px;
-  }
-  .a {
-    font-size: 45px;
-  }
-  .u {
-    font-size: 40px;
-  }
-  .l {
-    font-size: 40px;
-  }
-
-  .other {
-    font-size: 18px;
-  }
-}
 
 @media (min-width: 840px) {
   .response {
-    display: flex;
+   
     margin-top: 21px;
     margin-right: 3px;
     margin-left: -40px;
@@ -178,6 +142,27 @@
   .other {
     font-size: 19px;
   }
+
+  .p {
+    font-size: 30px;
+  }
+  .a {
+    font-size: 40px;
+  }
+  .u {
+    font-size: 35px;
+  }
+  .l {
+    font-size: 35px;
+  }
+
+  .other {
+    font-size: 18px;
+  }
+  .footer{
+    justify-content:center;
+  }
+ 
 }
 
 @media (min-width: 900px) {
@@ -190,6 +175,9 @@
     padding: 8px;
     margin-bottom: 25px;
   }
+  .footer{
+    justify-content:center;
+  }
 }
 
 @media (min-width: 1050px) {
@@ -201,14 +189,12 @@
     padding: 9px;
     margin-bottom: 25px;
   }
-  .nick {
-    margin-top: -2px;
-    margin-left: 30px;
-  }
+
 
   .other {
     padding: 8px;
   }
+ 
 }
 
 @media (min-width: 1150px) {
@@ -220,18 +206,28 @@
     padding: 8px;
     margin-bottom: 25px;
   }
-  .nick {
-    margin-top: -2px;
-    margin-left: 80px;
-  }
+ 
 
   .other {
     padding: 8px;
   }
+ 
 }
 
 @media (min-width: 1300px) {
 .footer{
   justify-content:center;
+}
+.p {
+  font-size: 35px;
+}
+.a {
+  font-size: 45px;
+}
+.u {
+  font-size: 40px;
+}
+.l {
+  font-size: 40px;
 }
 }

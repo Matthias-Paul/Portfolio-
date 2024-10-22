@@ -29,23 +29,23 @@ export default function Header({ visible, setVisible }) {
                   />
                 </div>
                 <Link to="home" smooth={true} offset={-170} duration={500}>
-                  <div className={styles.list}>Home</div>
+                  <div onClick={toggle} className={styles.list}>Home</div>
                 </Link>
 
                 <Link to="about" smooth={true} offset={-300} duration={500}>
-                  <div className={styles.list}>About me</div>
+                  <div onClick={toggle} className={styles.list}>About me</div>
                 </Link>
 
                 <Link to="services" smooth={true} offset={-350} duration={500}>
-                  <div className={styles.list}>Services</div>
+                  <div onClick={toggle} className={styles.list}>Services</div>
                 </Link>
 
                 <Link to="portfolio" smooth={true} offset={-300} duration={500}>
-                  <div className={styles.list}>Portfolio</div>
+                  <div onClick={toggle} className={styles.list}>Portfolio</div>
                 </Link>
 
-                <Link to="contact" smooth={true} offset={-200} duration={500}>
-                  <div className={styles.list}>Contact</div>
+                <Link to="contact" smooth={true} offset={-270} duration={500}>
+                  <div onClick={toggle} className={styles.list}>Contact</div>
                 </Link>
               </div>
             )}
@@ -56,19 +56,19 @@ export default function Header({ visible, setVisible }) {
             <div className={styles.other}>Home</div>
           </Link>
 
-          <Link to="about" smooth={true} offset={-120} duration={500}>
+          <Link to="about" smooth={true} offset={-120} duration={600}>
             <div className={styles.other}>About me</div>
           </Link>
 
-          <Link to="services" smooth={true} offset={-120} duration={500}>
+          <Link to="services" smooth={true} offset={-120} duration={700}>
             <div className={styles.other}>Services</div>
           </Link>
 
-          <Link to="portfolio" smooth={true} offset={-120} duration={500}>
+          <Link to="portfolio" smooth={true} offset={-120} duration={800}>
             <div className={styles.other}>Portfolio</div>
           </Link>
 
-          <Link to="contact" smooth={true} offset={-120} duration={500}>
+          <Link to="contact" smooth={true} offset={-120} duration={900}>
             <div className={styles.other}>Contact</div>
           </Link>
         </div>
