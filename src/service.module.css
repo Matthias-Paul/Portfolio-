@@ -25,6 +25,7 @@ font-weight: bold;
     border-radius: 10px;
     padding: 15px;
     overflow-wrap: break-word;
+   
   
 }
 .each h4{
@@ -60,7 +61,7 @@ font-weight: bold;
     margin-top:40px;
     }
   .render{
-    padding:70px;
+   
     grid-template-columns: 1fr 1fr ;
     row-gap: 30px;
     column-gap: 25px;
