@@ -31,13 +31,13 @@ export default function Project() {
       <div id="portfolio" className={styles.project}>
        <h3>My Latest Work</h3> 
       <div className={styles.grid}>
-      <img className={styles.image} onClick={calculator} src={cal} />
-      <img className={styles.image} onClick={todos} src={todo} />
-      <img className={styles.image} onClick={foods} src={food} />
-      <img className={styles.image} onClick={velots} src={velot} />
-      <img className={styles.image} onClick={jobs} src={job} />
-      <img className={styles.image} onClick={schs} src={sch} />
-   
+
+     <div className={styles.parent} >   <img className={styles.image} onClick={calculator} src={cal} />  </div> 
+     <div className={styles.parent} >  <img className={styles.image} onClick={todos} src={todo} />   </div> 
+     <div className={styles.parent} > <img className={styles.image} onClick={foods} src={food} />    </div> 
+     <div className={styles.parent} >  <img className={styles.image} onClick={velots} src={velot} />   </div> 
+     <div className={styles.parent} >  <img className={styles.image} onClick={jobs} src={job} />   </div> 
+     <div className={styles.parent} >  <img className={styles.image} onClick={schs} src={sch} />     </div>   
 
 
 

@@ -36,7 +36,7 @@ export default function Header({ visible, setVisible }) {
                   <div onClick={toggle} className={styles.list}>About me</div>
                 </Link>
 
-                <Link to="services" smooth={true} offset={-350} duration={500}>
+                <Link to="services" smooth={true} offset={-270} duration={500}>
                   <div onClick={toggle} className={styles.list}>Services</div>
                 </Link>
 
@@ -56,7 +56,7 @@ export default function Header({ visible, setVisible }) {
             <div className={styles.other}>Home</div>
           </Link>
 
-          <Link to="about" smooth={true} offset={-120} duration={600}>
+          <Link to="about" smooth={true} offset={-150} duration={600}>
             <div className={styles.other}>About me</div>
           </Link>
 

@@ -1,5 +1,6 @@
 .about{
-    min-height:100vh;
+
+    margin:auto;
     padding:17px;
 }
 .about h3{
@@ -13,6 +14,7 @@
     padding: 10px;
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .text p{
     margin-top: -8px;
@@ -41,7 +43,8 @@ background: linear-gradient(194deg, blue, orange);
  
  @media (min-width:600px){
     .about{
-        padding: 40px;
+        padding: 20px;
+        max-width:500px;
      }
      .about h3{
         font-size: 30px;
@@ -49,9 +52,13 @@ background: linear-gradient(194deg, blue, orange);
      .text{
         font-size: 20px; 
      }
+     .text p{
+        margin-top: -2px;
+        line-height: 1.4em;
+    }
      .range hr{
-        margin-left: 40%;
-        margin-top: -20px;
+        margin-left: 25%;
+        margin-top: -16px;
      }
     
 
@@ -60,16 +67,26 @@ background: linear-gradient(194deg, blue, orange);
  @media (min-width:1000px){
     .about{
         padding: 60px;
+        max-width:900px;
+        margin:auto;
+
      }
      .about h3{
         font-size: 35px;
+
      }
      .text{
         font-size: 22px; 
+     
+      
      }
+     .text p{
+        margin-top: -2px;
+        line-height: 1.5em;
+    }
      .range hr{
-        margin-left: 42%;
-        margin-top: -20px;
+        margin-left: 12%;
+        margin-top: -15px;
      }
     
 

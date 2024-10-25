@@ -5,6 +5,7 @@ flex-direction:column;
 justify-content: center;
 align-items: center;
 min-height:100vh;
+
 }
 
 .image img{
@@ -81,6 +82,8 @@ min-height:100vh;
     .hero{
         flex-direction:row;
         justify-content: center;
+        max-width:900px;
+        margin:auto;
     }
     
     .image img{

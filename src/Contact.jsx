@@ -71,7 +71,7 @@ export default function Contact({visible}) {
          <div className={styles.label}>Email Address</div>
          <input className={styles.input} type="email" name="email address" placeholder="Enter your email address" required/>
          <div className={styles.label}>Write your messages here</div>
-         <textarea className={styles.text} name="message" rows="6" placeholder="Enter your message" required/>
+         <textarea className={styles.text} name="message" rows="6" placeholder="Enter your message" required />
        <button type="submit" className={styles.btn}>Send</button>
          </form>
          <span>{result}</span>

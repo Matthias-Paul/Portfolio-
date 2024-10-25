@@ -61,6 +61,7 @@ font-size:15px;
     border-radius: 3px;
     display:block;
     font-size:15px;
+    resize:none;
     }
     .btn{
        margin-top: 15px;
@@ -133,7 +134,15 @@ font-size:15px;
 
 
 
-
+  @media (min-width:1000px){
+    .contact{
+      margin:auto;
+      max-width:950px;
+    }
+   
+  
+    
+      }
 
 
 
