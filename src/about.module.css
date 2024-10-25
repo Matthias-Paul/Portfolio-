@@ -44,7 +44,7 @@ background: linear-gradient(194deg, blue, orange);
  @media (min-width:600px){
     .about{
        
-        max-width:500px;
+        max-width:700px;
      }
      .about h3{
         font-size: 30px;
