@@ -139,9 +139,22 @@ font-size:15px;
       margin:auto;
       max-width:950px;
     }
-   
   
-    
+    .head{
+        font-size:40px
+    }
+    .subHead{
+        font-size:25px;
+        margin-top:-15px;
+    }
+    .headParagraph{
+        font-size:20px
+    }
+    .contact p{
+        font-size:20px
+    }
+
+
       }
 
 
